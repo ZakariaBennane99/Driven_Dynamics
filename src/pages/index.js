@@ -13,9 +13,11 @@ const Home = () => {
     <img src='./stars.svg' id='stars1' />
     <img src='./stars.svg' id='stars2' />
     <div id='landing-content'>
-      <h1>Crafting Digital Masterpieces</h1>
-      <p>Step into the world of Idea Alchemists, where ideas transform into vibrant internet businesses. Our passionate team weaves digital magic, forging an array of innovative online ventures that captivate and inspire.</p>
-      <Link href="/portfolio"><button>PORTFOLIO</button></Link>
+      <h1>Digital Solutions, Crafted Simply</h1>
+      <p>Welcome to Driven Dynamics. We transform ideas into effective online platforms. Our small, dedicated team is committed to delivering impactful digital experiences.</p>
+      <Link href="/portfolio">
+        <button>PORTFOLIO</button>
+      </Link>
     </div>
     <Footer />
     </>

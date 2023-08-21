@@ -19,8 +19,8 @@ const Footer = () => {
         </div>
         <div>
           <h1>Contact </h1>
-          <p>contact@thelibertagroup.co.uk</p>
-          <p>+44 74 0109 7408</p>
+          <p>hello@drivendynamics.co.uk</p>
+          <p>+44 75 2064 4081</p>
         </div>
       </div>
     )

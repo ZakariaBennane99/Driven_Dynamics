@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Bowser from "bowser";
 import Header from '../../../components/Header';
 import Footer from '../../../components/Footer';
-import Link from 'next/link';
 
 const Portfolio = () => {
 
@@ -10,8 +8,8 @@ const Portfolio = () => {
     name: 'proderto.png',
     site: 'https://proderto.com'
   }, {
-    name: 'swiftnotion.png',
-    site: 'https://swiftnotion.co'
+    name: 'sumBroo.png',
+    site: 'https://sumbroo.com'
   }];
 
   const scrollContainerRef = useRef(null);
@@ -56,6 +54,7 @@ const Portfolio = () => {
     <>
     <Header />
     <img src='./upper_right.svg' id='upper_right' />
+    <img src='./lower_left.svg' id='lower_left' />
     <img src='./stars.svg' id='stars1' />
     <img src='./stars.svg' id='stars2' />
     <div id='portfolio-container'>
